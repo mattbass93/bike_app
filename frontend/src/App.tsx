@@ -1,16 +1,23 @@
-import { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+
+import CyclingPage from './pages/CyclingPage.tsx';
+import CalisthenicsPage from './pages/CalisthenicsPage.tsx';
+import UserProfile from './pages/UserProfile';
+
 
 function App() {
-  const [message, setMessage] = useState('');
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard/>} />
 
-  useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL}/api/hello`)
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message))
-      .catch((err) => console.error('Erreur de requête :', err));
-  }, []);
-
-  return <h1>{message}</h1>;
+      <Route path="/profile/:username" element={<UserProfile />} />
+      <Route path="/profile/:username/cycling" element={<CyclingPage />} />
+      <Route path="/profile/:username/calisthenics" element={<CalisthenicsPage />} />
+    </Routes>
+  );
 }
 
 export default App;

@@ -1,0 +1,39 @@
+.main-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo > img {
+   width: 20%;
+}
+
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    height: 150px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
