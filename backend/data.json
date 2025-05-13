@@ -1,0 +1,93 @@
+[
+  {
+    "username": "Matthis",
+    "avatar" : "/images/user1.png",
+    "sports": {
+      "cycling": {
+        "sessions": [
+          {
+            "date": "2024-05-13",
+            "distance_km": 25.4,
+            "duration_min": 75,
+            "avg_speed_kmh": 20.3,
+            "calories": 600
+          }
+        ],
+        "goals": {
+          "next_distance_km": 30,
+          "target_speed_kmh": 22
+        },
+        "year_progress": {
+          "total_km": 432,
+          "total_sessions": 19
+        }
+      },
+      "calisthenics": {
+        "sessions": [
+          {
+            "date": "2024-05-14",
+            "exercises": [
+              { "name": "Pull-up", "reps": 10, "sets": 3 },
+              { "name": "Push-up", "reps": 20, "sets": 4 }
+            ],
+            "duration_min": 45
+          }
+        ],
+        "goals": {
+          "pullups_goal": 15,
+          "workouts_per_week": 3
+        },
+        "year_progress": {
+          "total_workouts": 25,
+          "total_minutes": 900
+        }
+      }
+    }
+  },
+  
+ {
+    "username": "Nicolas",
+    "avatar" : "/images/user2.png",
+    "sports": {
+      "cycling": {
+        "sessions": [
+          {
+            "date": "2024-05-13",
+            "distance_km": 25.4,
+            "duration_min": 75,
+            "avg_speed_kmh": 20.3,
+            "calories": 600
+          }
+        ],
+        "goals": {
+          "next_distance_km": 30,
+          "target_speed_kmh": 22
+        },
+        "year_progress": {
+          "total_km": 432,
+          "total_sessions": 19
+        }
+      },
+      "calisthenics": {
+        "sessions": [
+          {
+            "date": "2024-05-14",
+            "exercises": [
+              { "name": "Pull-up", "reps": 10, "sets": 3 },
+              { "name": "Push-up", "reps": 20, "sets": 4 }
+            ],
+            "duration_min": 45
+          }
+        ],
+        "goals": {
+          "pullups_goal": 15,
+          "workouts_per_week": 3
+        },
+        "year_progress": {
+          "total_workouts": 25,
+          "total_minutes": 900
+        }
+      }
+    }
+  }
+]
